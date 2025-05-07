@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selvaganapathy | Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      /* Enables smooth scrolling */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Devfolio</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#services">Services</a>
+      <a href="#footer">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="content">
+      <h1>Hi, I am <br /><span class="name">Selvaganapathy</span></h1>
+      <h2>I am a <span class="highlight">web Developer</span></h2>
+      <p>A skilled web developer with a strong portfolio, passionate about staying updated on frontend tech.
+        Collaborative and committed to quality, you thrive in dynamic teams. Eager to contribute creativity and bring
+        innovative ideas to life.</p>
+      <button onclick="checkResume()">Check Resume</button>
+    </div>
+    <div class="profile-pic">
+      <img src="profile.jpg" alt="Selvaganapathy" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="image-container">
+      <img src="profile.jpg" alt="Profile Picture" />
+    </div>
+    <div class="about-text">
+      <h1>About <span>Me</span></h1>
+      <p>
+        I'm a Smart working person specialized in frontend development.
+        Along with my degree, I completed HTML, CSS, JavaScript, Bootstrap, and React.js courses and various technologies.
+        I learned has helped me develop a project called "Plant Saler E-commerce Site, Age Calculator, Currency Converter, etc."
+        It was during this project that I discovered that I am a team player. I am currently seeking roles
+        where I can utilize my experience and skill.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h1>My <span>Skills</span></h1>
+    <div class="skills-section">
+      <h2>Technical Skills</h2>
+      <div class="skill skill-html">
+        <label><i class="fab fa-html5"></i> HTML</label>
+        <div class="bar">
+          <div class="progress" style="width: 90%;">90%</div>
+        </div>
+      </div>
+      <div class="skill skill-css">
+        <label><i class="fab fa-css3-alt"></i> CSS</label>
+        <div class="bar">
+          <div class="progress" style="width: 85%;">85%</div>
+        </div>
+      </div>
+      <div class="skill skill-js">
+        <label><i class="fab fa-js-square"></i> JavaScript</label>
+        <div class="bar">
+          <div class="progress" style="width: 75%;">75%</div>
+        </div>
+      </div>
+      <div class="skill skill-bootstrap">
+        <label><i class="fab fa-bootstrap"></i> Bootstrap</label>
+        <div class="bar">
+          <div class="progress" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="skill skill-react">
+        <label><i class="fab fa-react"></i> React</label>
+        <div class="bar">
+          <div class="progress" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h1>My <span>Projects</span></h1>
+    <div class="projects-container">
+      <div class="card">
+        <img src="assets/ecomm.png" alt="Project 1">
+        <h3> Plant Seller E-Commerce</h3>
+        <p>A clean and modern e-commerce website template for selling plants online. Built with ❤️ using HTML, CSS, and JavaScript — perfect for showcasing green products with a minimalist design.</p>
+        <a href=" https://selvaganapathycoder.github.io/plant-seller-e-commerce/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="card">
+        <img src="assets/to-do.png" alt="Project 2">
+        <h3>To-Do List</h3>
+        <p>A simple and responsive To-Do List web application built with HTML, CSS, and JavaScript. It allows users to add, delete, and mark tasks as completed.</p>
+        <a href=" https://selvaganapathycoder.github.io/To-Do-List/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="card">
+        <img src="assets/age.png" alt="Project 3">
+        <h3>Animated Age Calculator</h3>
+        <p>An interactive and animated web application that calculates a user's age based on their input date of birth and displays the result in a visually engaging manner</p>
+        <a href=" https://selvaganapathycoder.github.io/animated-age-calculator/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="card">
+        <img src="assets/travel.png" alt="Project 4">
+        <h3>travel.io</h3>
+        <p>A modern travel website built with HTML and CSS.</p>
+        <a href=" https://selvaganapathycoder.github.io/travel.io/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="card">
+        <img src="assets/currency.png" alt="Project 5">
+        <h3>Currency Converter</h3>
+        <p>A simple and functional web-based currency converter application that allows users to convert values between different currencies in real-time using exchange rate APIs.</p>
+        <a href=" https://selvaganapathycoder.github.io/currency-converter/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+      <div class="card">
+        <img src="assets/spech.png" alt="Project 6">
+        <h3>Speech-to-Text</h3>
+        <p>A simple web-based application that converts spoken words into written text using the Web Speech API. This tool offers a hands-free way to take notes or transcribe speech directly in your browser.</p>
+        <a href=" https://selvaganapathycoder.github.io/Speech-to-Text/" target="_blank" class="github-link">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates-section">
+    <h1>My <span>Certificates</span></h1>
+    <div class="certificates-container">
+      <div class="certificate-card">
+        <img src="assets/web.png" alt="Certificate 1">
+        <h3>Web Development</h3>
+        <p>Issued by Coursera</p>
+        <button class="view-btn" onclick="viewCertificate('assets/certificate1.png')">View</button>
+      </div>
+      <div class="certificate-card">
+        <img src="assets/14db3b1f3361bf8322b30d85239a3d107f9edd8eb636d0453274803ab9f424df.png" alt="Certificate 2">
+        <h3>React.js Essentials</h3>
+        <p>Issued by geetster</p>
+        <button class="view-btn" onclick="viewCertificate('assets/certificate2.png')">View</button>
+      </div>
+      <div class="certificate-card">
+        <img src="assets/js.png" alt="Certificate 3">
+        <h3>JavaScript Mastery</h3>
+        <p>Issued by geetster</p>
+        <button class="view-btn" onclick="viewCertificate('assets/certificate3.png')">View</button>
+      </div>
+      <div class="certificate-card">
+        <img src="assets/git.png" alt="Certificate 4">
+        <h3>Git & GitHub</h3>
+        <p>Issued by geetster</p>
+        <button class="view-btn" onclick="viewCertificate('assets/certificate4.png')">View</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>What I Do</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">💻</div>
+        <h3>Web Development</h3>
+        <p>Plan, create, and code modern websites with elegant and responsive designs using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎨</div>
+        <h3>UI/UX Designer</h3>
+        <p>Design intuitive and visually appealing user interfaces and experiences for web and mobile applications.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="footer-box">
+        <h2 class="brand">Selva Ganapathy</h2>
+        <p><strong>Creating with passion.</strong></p>
+        <p> Briefly introduce myself and my background, highlighting my professional goals and aspirations. </p>
+      </div>
+      <div class="footer-box">
+        <h3>CONTACT</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Puducherry, India</p>
+        <p><i class="fas fa-envelope"></i> selvaganapathy172001@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +91 7397042839</p>
+        <div class="social-icons">
+          <a href="https://github.com/selvaganapathycoder" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/selvaganapathy" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">© 2021–2025 Selva Ganapathy. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function viewCertificate(imageSrc) {
+      window.open(imageSrc, '_blank');
+    }
+  </script>
+</body>
+
+</html>
